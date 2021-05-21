@@ -4,6 +4,15 @@
 <title> About us </title>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <style>
+.row{
+width:100%;
+display:flex;
+}
+.img-responsive{
+flex:1;
+width:5px;
+height:1px;
+}
 .header{
 text-align:center;
 background-color:pink;
@@ -13,20 +22,12 @@ padding:12px;
 color:purple;
 font-size:40px;
 }
-.row{
-display:flex;
-align-items:center;
-}
-.image{
-flex:1;
-width:40px;
-height:60px;
-}
+
 .topnav{
 flex:3;
 text-align:center;
 background-color:black;
-padding:10px;
+padding:2px;
 }
 .topnav a{
 padding:14px;
@@ -39,6 +40,12 @@ text-decoration:none;
 .topnav a:hover{
 color:white;
 }
+
+img{height:60px; width:90px;}
+
+nav{padding:10px;}
+
+
 .content{
 flex:1;
 
@@ -137,7 +144,7 @@ display:block;
 <div class="row">
 <img class="image" src="images.png">
 <div class="topnav">
-<a href= "fashion.html"> home </a>
+<a href= "fashion.html"> Home </a>
 <a href= "page 2.html"> About </a>
 <a href= "page 3.html"> Contact us </a>
 </div>
